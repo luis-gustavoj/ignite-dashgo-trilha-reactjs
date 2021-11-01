@@ -26,6 +26,7 @@ export function SearchBar() {
         mr="4"
         placeholder="Buscar na plataforma"
         _placeholder={{ color: "gray.400" }}
+        value={search}
         onChange={(event) => setSearch(event.target.value)}
       />
 
